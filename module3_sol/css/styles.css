@@ -1,0 +1,66 @@
+body{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+#header-nav{
+    background-color: grey;
+    border-radius: 0%;
+    border: 0;
+    margin: 0px;
+    padding: 0px;
+    height: 10%;
+    border-bottom: 3px solid black;
+}
+.navbar-brand span{
+    color: black;
+    font-size: 40px;
+ }/*for styling the brand name */
+
+.nav #drop-down{
+    color: black;
+    font-weight: 700;
+    font-size: 120%;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+#page_heading p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+} 
+
+.container .text-center{ /* Chiken*/
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+#text-format {
+    border: 1px solid black;
+    padding: 4%;
+    margin-left:0%;
+    margin-right:0%;
+    background-color: grey;
+    margin-bottom: 30px;
+    font-size: 150%;
+}
+
+ /* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){}
+/* .col-lg-4;
+.col-lg-4{
+    width: 30%;
+    float: left;
+} */
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @992px) {
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @768px) {
+}
+@media (max-width: @768) {
+    .visible-xs{
+    }
+ }
